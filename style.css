@@ -1,27 +1,39 @@
+/* <global > */
 .container{ 
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto 50px auto
-
+    margin: 0 auto ;
+} 
+/* <reset css> */   
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 300;
+    list-style: none;
+    text-decoration: none;
 }
+/* </reset css> */
+/* </global> */
+
+/* <header> */
 
 header{
    
-    background: rgb(255, 74, 74);
+  
     
     
 }
 header section{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header nav{
-   width: 50px;
-   height: 50px;
-   background: #000000; 
-   margin-bottom:10px;
-
+   
 }
 
 main{
@@ -30,16 +42,34 @@ main{
 }
 
 header nav.hamburguer{
-    background:lightblue;
+  background: #000;
 }
-header nav.tools{
-    background:lightcoral;
+header nav.tools ul{
+    display: flex
+}
+header nav.tools ul a{
+    padding: 6px;
+    color: #444444;
 }
 
-#logo{
-    width: 200px;
-    height: 50px;
+header #logo{
+    width: 371px;
     margin-bottom: 10px;
     display: block;
-    background: lightgreen;
+   
 }
+
+header #logo img{
+    width: 100%;
+
+}
+header nav.hamburguer button span{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #181818;
+    margin: 0px 10px 2px 10px;
+
+}
+
+/* </header> */

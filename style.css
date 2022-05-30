@@ -1,0 +1,45 @@
+.container{ 
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 50px auto
+
+}
+
+header{
+   
+    background: rgb(255, 74, 74);
+    
+    
+}
+header section{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav{
+   width: 50px;
+   height: 50px;
+   background: #000000; 
+   margin-bottom:10px;
+
+}
+
+main{
+    background: black;
+    height: 100px;
+}
+
+header nav.hamburguer{
+    background:lightblue;
+}
+header nav.tools{
+    background:lightcoral;
+}
+
+#logo{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    display: block;
+    background: lightgreen;
+}

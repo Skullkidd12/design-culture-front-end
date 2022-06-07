@@ -1,0 +1,22 @@
+@media (max-width: 1024px){
+
+
+
+
+    main ul{
+        display: flex;
+        justify-content: space-evenly;
+        height: 200px;
+        background: black;
+        padding: 20px;
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+}

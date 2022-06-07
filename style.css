@@ -36,9 +36,7 @@ h1{
 
 
 /* header */
-header{
-    
-}
+
 header section{
     display: flex; 
     justify-content:space-between;
@@ -47,9 +45,7 @@ header section{
 header nav{
     margin-bottom: 10px;
 }
-header nav.hamburguer{
 
-}
 header nav.hamburguer button span{
     display: block;
     width: 40px;
@@ -147,7 +143,7 @@ header section.stories ul li figcaption{
     }
     header section.stories ul{
         display: block;
-        width: fit-content;
+        width: moz-fit-content;
         white-space: nowrap;
     }
     header section.stories ul li{
@@ -175,9 +171,7 @@ header section.stories ul li figcaption{
 /* /header */
 
 /* main */
-main{
 
-}
 
 main section.modulos-home{
     padding: 50px 0;

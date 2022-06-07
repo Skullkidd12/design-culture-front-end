@@ -1,0 +1,32 @@
+@media (max-width: 767px){
+
+    body{
+        font-weight: bold;
+    }
+
+main ul{
+    flex-wrap: wrap;
+    height: 500px;
+    background: rgb(96, 85, 85);
+}
+
+
+main ul li{
+    width: 100%;
+    margin: 30px 0;
+    box-shadow: 0px 15px 20px #000;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
